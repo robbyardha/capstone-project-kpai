@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "818292270680",
+    "project_id": "capstone-project-kpai",
+    "storage_bucket": "capstone-project-kpai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818292270680:android:cd81bfb353aac317d1cc2d",
+        "android_client_info": {
+          "package_name": "com.ardhacodes.chatbot_kpai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818292270680-n4r374p15pna4s8b9ijigrgm8rpvmtbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwZWky8M1Wf60PGS0c1sxgbebtcK77spk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818292270680-n4r374p15pna4s8b9ijigrgm8rpvmtbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
