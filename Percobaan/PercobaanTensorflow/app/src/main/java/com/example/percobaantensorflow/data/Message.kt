@@ -1,5 +1,8 @@
 package com.example.percobaantensorflow.data
 
+
+//sembarang
+
 //tambahan lagi
 ///ini data class
 data class Message (
