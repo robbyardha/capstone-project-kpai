@@ -69,7 +69,11 @@ dependencies {
 
 
     //Tensorflow
-    implementation 'org.tensorflow:tensorflow-lite:1.13.1'
-    implementation 'org.tensorflow:tensorflow-lite:+'
+    implementation 'org.tensorflow:tensorflow-lite:2.5.0'
+    implementation 'org.tensorflow:tensorflow-lite:2.5.0'
+    implementation 'org.tensorflow:tensorflow-lite:0.1.2-nightly'
+    implementation 'org.tensorflow:tensorflow-lite-task-vision:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-task-text:0.1.0'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
     
 }
