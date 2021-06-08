@@ -40,11 +40,18 @@ object BotResponse {
                 when (random) {
                     0 -> "Hello there!"
                     1 -> "Lapo"
+                    2 -> "Hai"
+                    3 -> "Selamat Datang"
                     else -> "error" }
             }
 
             message.contains("hai") -> {
-                "hello"
+                when (random) {
+                    0 -> "Hello there!"
+                    1 -> "Lapo"
+                    2 -> "Hai"
+                    3 -> "Selamat Datang"
+                    else -> "error" }
             }
 
 
@@ -81,9 +88,9 @@ object BotResponse {
             //When the programme doesn't understand...
             else -> {
                 when (random) {
-                    0 -> "I don't understand..."
-                    1 -> "Try asking me something different"
-                    2 -> "Idk"
+                    0 -> "Yah maaf nih kurang tau, masih perlu belajar"
+                    1 -> "apakah itu. Aku kurang tau"
+                    2 -> "Maaf kata belum terdeteksi"
                     else -> "error"
                 }
             }

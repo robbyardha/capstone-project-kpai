@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     var messagesList = mutableListOf<Message>()
 
     private lateinit var adapter: MessagingAdapter
-    private val botList = listOf("Peter", "Francesca", "Luigi", "Igor")
+    private val botList = listOf("Joni", "Bogi", "Sujono", "Al Ghazali")
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,14 +42,14 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        setTitle("Chatbot Sederhana")
+        setTitle("Mental Chatbot")
 
         recyclerView()
 
         clickEvents()
 
         val random = (0..3).random()
-        customBotMessage("Hello! Today you're speaking with ${botList[random]}, how may I help?")
+        customBotMessage("Hello! Selamat Datang di Mental Chatbot.Kamu Sekarang terhubung dengan ${botList[random]}, Apa yang mau kamu curhatin?")
 
     }
 
