@@ -78,5 +78,8 @@ dependencies {
 
     //Lottie
     implementation "com.airbnb.android:lottie:3.7.0"
+
+    //App Intro
+    implementation 'com.github.AppIntro:AppIntro:6.1.0'
     
 }
