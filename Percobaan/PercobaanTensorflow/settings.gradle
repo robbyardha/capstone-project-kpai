@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Percobaan Tensorflow"
+rootProject.name = "E-RCV"

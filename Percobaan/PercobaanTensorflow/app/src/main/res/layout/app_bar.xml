@@ -24,7 +24,7 @@
                 android:layout_height="50dp"
                 android:src="@drawable/bot"
                 android:padding="8dp"/>
-
+<!--            android:src="@drawable/bot"-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
